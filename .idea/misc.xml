@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectResources">
+    <resource url="http://xmlns.jcp.org/xml/ns/javaee/" location="$PROJECT_DIR$/../../../Dependencies/Webapp xmlSchema/javaee_8.xsd" />
+    <resource url="http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" location="$PROJECT_DIR$/../../../Dependencies/Webapp xmlSchema/web-app_4_0.xsd" />
+    <resource url="javaee_web_services_1_4" location="$PROJECT_DIR$/../../../Dependencies/Webapp xmlSchema/javaee_web_services_1_4.xsd" />
+    <resource url="jsp_2_3" location="$PROJECT_DIR$/../../../Dependencies/Webapp xmlSchema/jsp_2_3.xsd" />
+    <resource url="web-common_4_0" location="$PROJECT_DIR$/../../../Dependencies/Webapp xmlSchema/web-common_4_0.xsd" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
