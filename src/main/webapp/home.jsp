@@ -11,6 +11,7 @@
         <% System.out.println("inhomejsp"+ request.getSession().getAttribute("sessionId"));
             request.setAttribute("sessionId",request.getAttribute("sessionId"));%>
         <span><a href="update.jsp">Update</a></span>
+        <span><a href="RemoveAccountController">RemoveAccount</a></span>
         <span><a href="DisplayController">Display Details</a></span>
        <span><a href="LogoutController">Logout</a></span>
     </nav>

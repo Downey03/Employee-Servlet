@@ -14,7 +14,7 @@
 
     <servlet>
         <servlet-name>SignUpController</servlet-name>
-        <servlet-class>ServletController.SignUpController</servlet-class>
+        <servlet-class>Controller.SignUpController</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>SignUpController</servlet-name>
@@ -23,7 +23,7 @@
 
     <servlet>
         <servlet-name>LoginController</servlet-name>
-        <servlet-class>ServletController.LoginController</servlet-class>
+        <servlet-class>Controller.LoginController</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>LoginController</servlet-name>
@@ -32,11 +32,20 @@
 
     <servlet>
         <servlet-name>LogoutController</servlet-name>
-        <servlet-class>ServletController.LogoutController</servlet-class>
+        <servlet-class>Controller.LogoutController</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>LogoutController</servlet-name>
         <url-pattern>/LogoutController</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RemoveAccountController</servlet-name>
+        <servlet-class>Controller.RemoveAccountController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RemoveAccountController</servlet-name>
+        <url-pattern>/RemoveAccountController</url-pattern>
     </servlet-mapping>
 
 </web-app>

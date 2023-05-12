@@ -1,6 +1,4 @@
-package ServletController;
-
-import ServletModel.ModelUtil;
+package Controller;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

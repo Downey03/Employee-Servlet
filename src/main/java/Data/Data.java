@@ -1,6 +1,6 @@
 package Data;
 
-import Bean.Employee;
+import Model.Employee;
 
 import java.util.HashMap;
 
